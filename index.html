@@ -3,24 +3,36 @@
 <head>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 
-<header>
+<header id="header">
     <div class="container">
         <div class="header__flex-box">
             <div class="header__title">
                 <img src="./images/header-logo.png" alt="">
             </div>
             <div class="header__links">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#news">News</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+                <button class="btn">Get template</button>
+            </div>
+            <button class="burger">
+                <img src="./images/burger-menu.svg" alt="">
+            </button>
+            <div class="burger-menu">
                 <a href="#">Projects</a>
                 <a href="#">About</a>
                 <a href="#">News</a>
                 <a href="#">Team</a>
                 <a href="#">Contact</a>
-                <button>Get template</button>
+                <button class="btn">Get template</button>
             </div>
         </div>
     </div>
@@ -37,7 +49,7 @@
                     At its heart, we believe
                     design is about usability and accessibility — these are the guiding principles for our work. Read
                     more about our previous projects, our process and our team below.</p>
-                <button class="hero__btn">Read More</button>
+                <button class="hero__btn btn">Read More</button>
             </div>
         </div>
         <div class="hero__img">
@@ -90,7 +102,7 @@
 
 </section>
 
-<section class="our-process">
+<section id="projects" class="our-process">
     <div class="container">
         <div class="our-process__title">
             Our process
@@ -150,7 +162,7 @@
 
 </section>
 
-<section class="prior-client">
+<section id="about" class="prior-client">
     <div class="prior-client__content-box">
         <div class="prior-client__content-text">
             <div class="prior-client__content-title">
@@ -168,7 +180,7 @@
                <div class="prior-client__content-icons-box pt">
                    <img src="./images/hill.png" alt="">
                </div>
-               <div class="prior-client__content-icons-box">
+               <div class="prior-client__content-icons-box pb">
                    <img src="./images/studio.png" alt="">
                </div>
            </div>
@@ -176,7 +188,7 @@
                 <div class="prior-client__content-icons-box ">
                     <img src="./images/riksg.png" alt="">
                 </div>
-                <div class="prior-client__content-icons-box">
+                <div class="prior-client__content-icons-box pb">
                     <img src="./images/chill.png" alt="">
                 </div>
 
@@ -200,7 +212,7 @@
 
 </section>
 
-<section class="featured">
+<section id="news" class="featured">
     <div class="container">
         <div class="featured__content-box">
             <div class="featured__title">
@@ -219,7 +231,7 @@
                            <div class="feature__card-subtitle">Big Road Brewery</div>
                        </div>
                         <div>
-                            <button class="feature__card-btn">
+                            <button class="feature__card-btn btn">
                                 Read more
                             </button>
                         </div>
@@ -228,14 +240,16 @@
 
 
                 <div class="feature__card-box">
-                    <img src="./images/feature-2.jpg" alt="">
+                    <div class="feature__img-box">
+                        <img src="./images/feature-2.jpg" alt="">
+                    </div>
                     <div class="feature__card-text">
                         <div>
                             <div class="feature__card-title">New York</div>
                             <div class="feature__card-subtitle">Big Road Brewery</div>
                         </div>
                         <div>
-                            <button class="feature__card-btn">
+                            <button class="feature__card-btn btn">
                                 Read more
                             </button>
                         </div>
@@ -250,7 +264,7 @@
                             <div class="feature__card-subtitle">Big Road Brewery</div>
                         </div>
                         <div>
-                            <button class="feature__card-btn">
+                            <button class="feature__card-btn btn">
                                 Read more
                             </button>
                         </div>
@@ -259,7 +273,7 @@
 
 
             </div>
-                <button class="feature__btn">
+                <button class="feature__btn btn">
                     View all
                 </button>
 
@@ -267,13 +281,13 @@
     </div>
 </section>
 
-<section class="team">
+<section id="team" class="team">
     <div class="container">
         <div class="team__flex-box">
             <div class="team__text-box">
                 <p class="team__title">Meet our team</p>
                 <p class="team__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.</p>
-                <button class="team__btn">Out team</button>
+                <button class="team__btn btn">Out team</button>
             </div>
             <div class="team__people">
                 <div class="team__people-card">
@@ -326,7 +340,7 @@
     </div>
 </section>
 
-<section class="contact">
+<section id="contact" class="contact">
 <div class="container">
     <div class="contact-content-box">
         <div>
@@ -334,7 +348,7 @@
             <div class="contact__subtitle">Think we would be a good fit for your next project?</div>
         </div>
         <div>
-            <button class="contact__btn">Get in touch</button>
+            <button class="contact__btn btn">Get in touch</button>
         </div>
     </div>
 </div>
@@ -345,7 +359,7 @@
         <div class="footer__flex-box">
             <div class="footer__text">
                 <div class="footer__logo">
-                    <img src="./images/footer-logo.svg" alt="">
+                    <a href="#header"><img src="./images/footer-logo.svg" alt=""></a>
                 </div>
                 <div class="footer__title">
                     Powered by
@@ -359,14 +373,14 @@
 
             </div>
             <div class="footer__social">
-                <img class="footer-mr" src="./images/tweeter.svg" alt="">
-                <img class="footer-mr" src="./images/inst.svg" alt="">
-                <img src="./images/face.svg" alt="">
+                <a target="_blank" href="https://twitter.com/"><img class="footer-mr" src="./images/tweeter.svg" alt=""></a>
+                <a target="_blank" href="https://www.instagram.com/"><img class="footer-mr" src="./images/inst.svg" alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/"><img src="./images/face.svg" alt=""></a>
             </div>
         </div>
     </div>
 </section>
 
-
+<script src="./index.js"></script>
 </body>
 </html>

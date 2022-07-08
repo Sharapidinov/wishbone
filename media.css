@@ -1,0 +1,302 @@
+@media (max-width: 1200px) {
+
+    .hero__text-content {
+        padding: 5px;
+    }
+    .our-firm{
+        padding: 50px 150px;
+    }
+    .our-process {
+        padding: 50px 0 50px;
+    }
+    .prior-client{
+        padding: 20px;
+    }
+    .prior-client__content-text {
+        margin-right: 20px;
+    }
+    .reeding-house{
+        height: 500px;
+    }
+    .featured{
+        padding: 50px 0;
+    }
+    .featured__content-box{
+        text-align: center;
+    }
+    .featured__subtitle{
+        max-width: unset;
+    }
+    .featured__flex-box{
+        /*display: flex;*/
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature__card-box {
+        width: unset;
+        margin: 0 auto 20px;
+    }
+    .feature__card-text{
+     text-align: start;
+    }
+    .team{
+        padding: 50px 10px;
+    }
+    .team__people-card{
+        margin-right: 50px;
+    }
+    .contact{
+        padding: 50px 30px;
+    }
+    .footer__flex-box{
+        padding: 50px 30px;
+    }
+}
+@media (max-width: 992px) {
+.section__text-left{
+    left: 70px;
+}
+    .team__people-card{
+        margin-right: 30px;
+    }
+    .header__links{
+        display: none;
+    }
+    .burger{
+        display: block;
+        background: none;
+        border: none;
+        z-index: 2;
+    }
+
+    .burger-menu-active{
+        width: 30%;
+        height: 100%;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        display: flex;
+        flex-direction: column;
+        padding: 60px 30px;
+
+        background: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .burger-menu-active a{
+        margin-right: 33px;
+        text-decoration: none;
+        color:black;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .burger-menu-active button {
+        padding: 10px 20px;
+        background: none;
+        border-radius: 15px;
+        color: black;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+        letter-spacing: 0.4px;
+    }
+    .hero__text-content{
+        width: 100%;
+    }
+    .hero__img{
+        display: none;
+    }
+    .our-firm{
+        padding: 50px 100px;
+    }
+    .section__text{
+        top: 50%;
+        /*right: 50%;*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .section__text-left{
+        top: 50%;
+        /*right: 50%;*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .col-4 {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .our-process__card-box{
+        margin-bottom: 20px;
+    }
+    .section__image img{
+        opacity: 0.5;
+    }
+    .prior-client__content-box{
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .prior-client__content-text{
+        text-align: center;
+    }
+    .prior-client__content-text p{
+        width: unset;
+        margin: 0 auto;
+    }
+    .prior-client__content-icons{
+        width: unset;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .team__flex-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .team__text-box{
+        margin-bottom: 30px;
+    }
+    .team__people-card{
+
+        margin: 0 auto 20px;
+        padding-right: 10px;
+    }
+    .contact__title{
+        font-size: 12px;
+    }
+    .contact__subtitle{
+        font-size: 30px;
+        max-width: 400px;
+    }
+}
+@media (max-width: 768px)   {
+    .hero__text{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .hero__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 21px;
+    }
+    .our-firm__flex-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-firm__title{
+        width: unset;
+        margin-bottom: 20px;
+    }
+    .our-firm__content{
+        width: unset;
+    }
+    .our-process__subtitle{
+        font-size: 30px;
+    }
+    .featured__title{
+     font-size: 30px;
+    }
+    .featured__subtitle{
+        font-size: 20px;
+    }
+    .contact__subtitle{
+     font-size: 25px;
+        max-width: 360px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .hero__text-content-box{
+        padding: 20px;
+    }
+    .our-firm{
+        padding: 20px;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .prior-client__content-icons{
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    .prior-client__content-icons-box{
+        margin-bottom: 20px;
+    }
+    .contact-content-box{
+        display: block;
+    }
+    .team__people{
+        display: block;
+    }
+    .team__people-card{
+        margin-bottom: 20px;
+    }
+    .contact__subtitle{
+        margin-bottom: 20px;
+    }
+    .footer__flex-box{
+        display: block;
+    }
+    .footer__text{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 489px) {
+    .section__text{
+        width: 200px;
+    }
+    .hero__text{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .hero__title{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .hero__subtitle{
+        font-size: 14px;
+    }
+    .our-firm__title p{
+        font-size: 24px;
+    }
+    .our-firm__content-text{
+        font-size: 14px;
+    }
+    .our-process__subtitle{
+        font-size: 24px;
+    }
+    .prior-client__content-box{
+        padding: 10px;
+    }
+    .prior-client__content-icons-card{
+        margin: 0 auto;
+    }
+    .prior-client__content-icons-box{
+        margin-bottom: 30px;
+    }
+    .featured__flex-box{
+        display: block;
+    }
+    .feature__card-box img{
+        width: 100%;
+    }
+}
+@media (max-width: 320px) {}
